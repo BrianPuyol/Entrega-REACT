@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: 'Coluna';
+  src: url(/public/imagenes/Coluna_Rounded.ttf) format('truetype');
+  font-weight: bold;
+  font-style: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fondo{
+  background-image: url(/public/imagenes/fondo.png);
+  background-position: center; /*lo centra*/
+  background-attachment: fixed; /*para que no se repita*/
+  background-size: cover; /*para que cubra todo*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.holder{max-width: 500px; max-height: 900px; margin: 0 auto;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*INICIO HEADER*/
+
+.iconos{display: flex; align-items: center; justify-content: center;}
+
+.icono_1{margin-right: 20px;}
+
+.icono_2{margin-right: 80px;}
+
+.icono_3{margin: 0 13px 0 13px;}
+
+.icono_4{margin-left: 80px;}
+
+.icono_5{margin-left: 20px;}
+
+/*FIN HEADER*/
+
+
+
+/*INICIO NAV*/
+
+nav ul{margin: 0; padding: 0; list-style: none; display:flex;}
+
+nav ul li{flex-grow: 1;}
+
+.activo{background-color: #1da1ff; font-size: 30px; font-family: coluna;  padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center;  border-radius: 5px;}
+
+.rectangulo_1, .rectangulo_2, .rectangulo_3, .rectangulo_4{background-color: #2f91d7a5;font-size: 30px; font-family: coluna; padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center; border-radius: 5px;}
+
+nav ul li a{color: white; text-decoration: none;}
+
+nav ul li:hover{background-color: #1da1ff; cursor: pointer;}
+
+/*FIN NAV*/
+
+
+
+/*INICIO MAIN LOCALES*/ /*subir rectangulo lista*/
+
+.google_maps p{text-align: center; color: white; font-size: 25px; font-family: coluna;}
+
+.google_maps img{max-width: 90%;}
+
+.google_maps{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.google_maps p select{color: rgba(0, 0, 0, 0.64); font-size: 20px; font-family: coluna;}
+
+/*INICIO MAIN LOCALES*/
+
+
+
+/*INICIO MAIN NOSOTROS*/
+
+.main{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.titulo_nosotros1{display: flex; justify-content: center; align-items: center; text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px; margin-bottom: -20px;}
+
+.titulo_nosotros2{text-align: center; color: white; font-size: 20px; font-family: coluna;}
+
+.titulo_nosotros img{margin-bottom: 6px;}
+
+.integrantes{
+  background-color: #2f91d7a5;
+  width: 100%;
+  border-radius: 5px;
+  margin: 16px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.integrantes img{max-width: 100px; display: block;}
+
+.integrantes .info h4{
   color: white;
+  font-size: 25px; 
+  font-family: coluna;
 }
 
-.App-link {
-  color: #61dafb;
+.integrantes .info p{
+  color: white;
+  font-size: 15px; 
+  font-family: coluna;
+} 
+
+/*FIN MAIN NOSOTROS*/
+
+
+/*INICIO MAIN SHOP*/
+
+.titulo_shop p{text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px;}
+
+.ropa{display: flex; justify-content: center; align-items: center; gap: 5px;}
+
+.ropa img:nth-child(1){transform: rotate(-90deg);}
+
+.ropa img:nth-child(4){transform: rotate(90deg);}
+
+/*FIN MAIN SHOP*/
+
+
+
+/*INICIO MAIN HOME*/
+
+.titulo_home p{color: white; font-size: 25px; font-family: coluna; text-align: center;}
+
+.titulo_home a{text-decoration: none;}
+
+.ofertas_1{display: flex; justify-content: center; align-items: center;}
+
+.ofertas_2 img{margin: 18px 0 0 120PX;}
+
+/*FIN MAIN HOME*/
+
+
+
+/*INICIO FOOTER*/
+
+footer{display: flex; justify-content: center; align-items: center;}
+
+.contenedor_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f91d7a5;
+  width: 450px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor_footer p, .contenedor_footer p a{
+  color: white;
+  font-size: 15px;
+  font-family: coluna;
+  text-align: center;
+  margin: 5px 0; /*IMPORTANTE*/
+  text-decoration: none;
 }
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.redes a{
+  font-size: 15px;
+  font-family: coluna;
+  color: white;
+  text-decoration: none;
+}
+
+/*FIN FOOTER*/
