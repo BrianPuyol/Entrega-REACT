@@ -1,0 +1,41 @@
+
+
+/*INICIO MAIN NOSOTROS*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo_nosotros1{display: flex; justify-content: center; align-items: center; text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px; margin-bottom: -20px;}
+  
+  .titulo_nosotros2{text-align: center; color: white; font-size: 20px; font-family: coluna;}
+  
+  .titulo_nosotros img{margin-bottom: 6px;}
+  
+  .integrantes{
+    background-color: #2f91d7a5;
+    width: 100%;
+    border-radius: 5px;
+    margin: 16px 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .integrantes img{max-width: 100px; display: block;}
+  
+  .integrantes .info h4{
+    color: white;
+    font-size: 25px; 
+    font-family: coluna;
+  }
+  
+  .integrantes .info p{
+    color: white;
+    font-size: 15px; 
+    font-family: coluna;
+  } 
+  
+  /*FIN MAIN NOSOTROS*/

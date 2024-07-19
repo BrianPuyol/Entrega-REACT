@@ -1,0 +1,11 @@
+/*INICIO MAIN HOME*/
+
+.titulo_home p{color: white; font-size: 25px; font-family: coluna; text-align: center;}
+
+.titulo_home a{text-decoration: none;}
+
+.ofertas_1{display: flex; justify-content: center; align-items: center;}
+
+.ofertas_2 img{margin: 18px 0 0 120PX;}
+
+/*FIN MAIN HOME*/

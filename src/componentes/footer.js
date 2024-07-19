@@ -1,14 +1,14 @@
 const Footer = (props) => {
     return (
         <footer>
-            <div class="contenedor_footer">
+            <div className="contenedor_footer">
                 <p>
                     <a href="">PREGUNTAS FRECUENTES</a> | <a href="">CONTACTO</a> | <a href="">BOTÓN DE ARREPENTIMIENTO</a> | <a href="">CAMBIO Y DEVOLUCIONES</a>
                 </p>
                 <p>
                     SEGUINOS EN NUESTRAS REDES SOCIALES
                 </p>
-                <div class="redes">
+                <div className="redes">
                     <img src="./imagenes/instagram.svg" alt="instagram" width="20px" />
                     <span><a href="">TENES.FRIO?</a></span>
                     <img src="./imagenes/facebook-f.svg" alt="facebook" width="15px" />

@@ -12,7 +12,7 @@
   background-size: cover; /*para que cubra todo*/
 }
 
-.holder{max-width: 500px; max-height: 900px; margin: 0 auto;}
+.holder{max-width: 500px; max-height: 900px; margin: 0 auto; }
 
 /*INICIO HEADER*/
 
@@ -47,89 +47,6 @@ nav ul li a{color: white; text-decoration: none;}
 nav ul li:hover{background-color: #1da1ff; cursor: pointer;}
 
 /*FIN NAV*/
-
-
-
-/*INICIO MAIN LOCALES*/ /*subir rectangulo lista*/
-
-.google_maps p{text-align: center; color: white; font-size: 25px; font-family: coluna;}
-
-.google_maps img{max-width: 90%;}
-
-.google_maps{display: flex; flex-direction: column; justify-content: center; align-items: center;}
-
-.google_maps p select{color: rgba(0, 0, 0, 0.64); font-size: 20px; font-family: coluna;}
-
-/*INICIO MAIN LOCALES*/
-
-
-
-/*INICIO MAIN NOSOTROS*/
-
-.main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.titulo_nosotros1{display: flex; justify-content: center; align-items: center; text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px; margin-bottom: -20px;}
-
-.titulo_nosotros2{text-align: center; color: white; font-size: 20px; font-family: coluna;}
-
-.titulo_nosotros img{margin-bottom: 6px;}
-
-.integrantes{
-  background-color: #2f91d7a5;
-  width: 100%;
-  border-radius: 5px;
-  margin: 16px 0;
-  display: flex;
-  gap: 30px;
-}
-
-.integrantes img{max-width: 100px; display: block;}
-
-.integrantes .info h4{
-  color: white;
-  font-size: 25px; 
-  font-family: coluna;
-}
-
-.integrantes .info p{
-  color: white;
-  font-size: 15px; 
-  font-family: coluna;
-} 
-
-/*FIN MAIN NOSOTROS*/
-
-
-/*INICIO MAIN SHOP*/
-
-.titulo_shop p{text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px;}
-
-.ropa{display: flex; justify-content: center; align-items: center; gap: 5px;}
-
-.ropa img:nth-child(1){transform: rotate(-90deg);}
-
-.ropa img:nth-child(4){transform: rotate(90deg);}
-
-/*FIN MAIN SHOP*/
-
-
-
-/*INICIO MAIN HOME*/
-
-.titulo_home p{color: white; font-size: 25px; font-family: coluna; text-align: center;}
-
-.titulo_home a{text-decoration: none;}
-
-.ofertas_1{display: flex; justify-content: center; align-items: center;}
-
-.ofertas_2 img{margin: 18px 0 0 120PX;}
-
-/*FIN MAIN HOME*/
 
 
 
