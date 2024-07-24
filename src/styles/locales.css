@@ -1,14 +1,29 @@
+/*INICIO MAIN LOCALES*/
+/*subir rectangulo lista*/
 
+.contenedor{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#content h1{
+    display: flex;
+    font-family: coluna;
+    justify-content: center;
+    color: white;
+}
 
-/*INICIO MAIN LOCALES*/ /*subir rectangulo lista*/
+.info_estilo p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: coluna;
+    padding-right: 45px;
+    margin-left: 42px;
+    
+}
 
-.google_maps p{text-align: center; color: white; font-size: 25px; font-family: coluna;}
-
-.google_maps img{max-width: 90%;}
-
-.google_maps{display: flex; flex-direction: column; justify-content: center; align-items: center;}
-
-.google_maps p select{color: rgba(0, 0, 0, 0.64); font-size: 20px; font-family: coluna;}
 
 /*INICIO MAIN LOCALES*/

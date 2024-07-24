@@ -1,12 +1,32 @@
-
 /*INICIO MAIN SHOP*/
 
-.titulo_shop p{text-align: center; color: white; font-size: 25px; font-family: coluna; gap: 3px;}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.ropa{display: flex; justify-content: center; align-items: center; gap: 5px;}
+.titulo_shop p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: coluna;
+    gap: 3px;
+}
 
-.ropa img:nth-child(1){transform: rotate(-90deg);}
+.ropa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
-.ropa img:nth-child(4){transform: rotate(90deg);}
+.ropa img:nth-child(1) {
+    transform: rotate(-90deg);
+}
+
+.ropa img:nth-child(4) {
+    transform: rotate(90deg);
+}
 
 /*FIN MAIN SHOP*/

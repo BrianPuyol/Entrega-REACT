@@ -18,7 +18,7 @@ const Home = (props) => {
         </div>
 
         <div className="titulo_home">
-            <a href=""><p>VER COLECCIÓN</p></a>
+            <a><p>VER COLECCIÓN</p></a>
         </div>
 
 

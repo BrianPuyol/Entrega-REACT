@@ -5,11 +5,15 @@
   font-style: bold;
 }
 
-.fondo{
-  background-image: url(/public/imagenes/fondo.png);
-  background-position: center; /*lo centra*/
-  background-attachment: fixed; /*para que no se repita*/
-  background-size: cover; /*para que cubra todo*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/imagenes/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow:auto
 }
 
 .holder{max-width: 500px; max-height: 900px; margin: 0 auto; }
