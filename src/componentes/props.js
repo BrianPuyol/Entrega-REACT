@@ -11,7 +11,7 @@ const PalermoCaballito = () => {
         if (location === 'Palermo') {
             return {
                 mapSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26271.37140689085!2d-58.4264174!3d-34.5917888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb577e0c5827d%3A0xe35d7ebc08b7f9bb!2sPalermo%2C%20CABA!5e0!3m2!1ses!2sar!4v1625656365041!5m2!1ses!2sar',
-                 Contenido: 'Nuestra sucursal principal donde siempre contamos con stock. Visitanos cuando quieras!'
+                Contenido: 'Nuestra sucursal principal donde siempre contamos con stock. Visitanos cuando quieras!'
             };
         } else {
             return {
@@ -25,7 +25,7 @@ const PalermoCaballito = () => {
 
     return (
         <div id="content" className='contenedor'>
-            <h1>Estamos en <span id="location" onClick={toggleLocation} style={{ cursor: 'pointer', textDecoration: 'none'}}> : { location}</span></h1>
+            <h1>Estamos en <span id="location" onClick={toggleLocation} style={{ cursor: 'pointer', textDecoration: 'none', color: 'lemonchiffon' }}> : {location}</span></h1>
             <div id="map">
                 <iframe
                     src={mapSrc}

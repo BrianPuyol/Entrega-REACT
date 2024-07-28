@@ -1,32 +1,46 @@
+import "slick-carousel/slick/slick.css";
+// import React from "react";
+import Slider from "react-slick";
+
 import '../styles/home.css'
+import '../../src/App.css'
+// import img01 from '../imagenes/img01.jpg'
+// import img02 from '../imagenes/img02.jpg'
+// import img03 from '../imagenes/img03.jpg'
+
 
 const Home = (props) => {
 
-    return(
-        <main className="holder">
-        <div className="titulo_home">
-            <p>NO TE CUELGUES CON EL HOT WEEK!</p>
-        </div>
+  var settings = {
+    arrows: false,
+    infinite: true,
+    speed: 2000,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
-        <div className="ofertas_1">
-            <img src="./imagenes/CAMPERAS.jpg" alt="camperas.jpg" width="240px"/>
-            <img src="./imagenes/ZAPATILLAS.jpg" alt="zapatillas.jpg" width="240px"/>
-        </div>
+  return (
+    <div className="contenedor">
+      <h3>Abrigate bien este invierno!</h3>
+      <div className="carrusel">
+      <Slider {...settings} className="carrusel">
+        <img src="https://via.placeholder.com/228x343" alt="Img 01" />
+        <img src="https://via.placeholder.com/228x343" alt="Img 02" />
+        <img src="https://via.placeholder.com/228x343" alt="Img 03" />
+      </Slider>
+      <Slider {...settings} className="carrusel">
+        <img src="https://via.placeholder.com/228x343" alt="Img 01" />
+        <img src="https://via.placeholder.com/228x343" alt="Img 02" />
+        <img src="https://via.placeholder.com/228x343" alt="Img 03" />
+      </Slider>
 
-        <div className="ofertas_2">
-            <img src="./imagenes/SWEATERS.jpg" alt="sweaters.jpg" width="250px"/>
-        </div>
+      </div>
+      <h3>No te quedes con las ganas</h3>
+    </div>
 
-        <div className="titulo_home">
-            <a><p>VER COLECCIÓN</p></a>
-        </div>
-
-
-
-    </main>
-    )
-
-
+  );
 }
+
 
 export default Home
